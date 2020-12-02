@@ -5,7 +5,9 @@
 #To add as a .bat to allow your system to execute daily, do the following:
 #   1) Create a .txt file following the template -> "Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
 #       pause
-# note: you can find the Path where your python.exe is by using which py(thon)
+#    note: you can find the Path where your python.exe is by using which py(thon)
+#   2) Add this batch file as a basic task within the Task Scheduler
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
